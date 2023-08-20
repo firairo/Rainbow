@@ -8,10 +8,12 @@ public class Rainbow implements StringPrinter {
     final String LIGHT_BLUE = "light blue";
     final String BLUE = "blue";
     final String VIOLET = "violet";
+
     Rainbow(int number) {
         String result = numberCheck(number);
         print(result);
     }
+
     Rainbow(int number1, int number2) {
         String result1 = numberCheck(number1);
         String result2 = numberCheck(number2);
